@@ -26,18 +26,19 @@ font-weight: bold;
 color: #4a9edd;
 position: absolute;
 }
-.hour-1{ top: 40px; right: 130px; }
-.hour-2{ top: 125px; right: 45px; }
-.hour-3{ top: 235px; right: 10px; }
-.hour-4{ top: 345px; right: 45px; }
-.hour-5{ top: 430px; right: 130px; }
-.hour-6{ bottom: 10px; left: 240px; }
-.hour-7{ top: 430px; left: 130px; }
-.hour-8{ top: 345px; left: 45px; }
-.hour-9{ top: 235px; left: 10px; }
-.hour-10{ top: 125px; left: 45px; }
-.hour-11{ top: 40px; left: 130px; }
-.hour-12{ top: 10px; left: 235px; }
+.hour-1{ top: 65px; right: 155px; }
+.hour-2{ top: 150px; right: 70px; }
+.hour-3{ top: 235px; right: 35px; }
+.hour-4{ top: 320px; right: 70px; }
+.hour-5{ top: 405px; right: 155px; }
+.hour-6{ bottom: 35px; left: 240px; }
+.hour-7{ top: 405px; left: 155px; }
+.hour-8{ top: 320px; left: 70px; }
+.hour-9{ top: 235px; left: 35px; }
+.hour-10{ top: 150px; left: 70px; }
+.hour-11{ top: 65px; left: 155px; }
+.hour-12{ top: 35px; left: 235px; }
+
 .brand {
 font-size: 20px;
 font-weight: bold;
