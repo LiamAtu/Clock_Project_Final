@@ -6,10 +6,13 @@ var d = new Date();
 setInterval(
 
     function(){
-        d = Date();
+        d = new Date();
         second = d.getSeconds() * 6;
-        minute = d.getMinutes();
-        hour = d.getHours();
+        minute = d.getMinutes() * 6;
+        hour = d.getHours() * 30 + Math.floor(minute / 12);
         document.getElementById("second-hand").style.transform = "rotate(" + second + "deg)";
+        document.getElementById("minute-hand").style.transform = "rotate(" + minute + "deg)";
+        document.getElementById("hour-hand").style.transform = "rotate(" + hour + "deg)";
+
     }, 1000
 );
